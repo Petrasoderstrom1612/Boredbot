@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 10px;
+}
+
+body {
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: "Oxygen", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+button {
+    background: -webkit-linear-gradient(to top, #2c3e50, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #73b9ff, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid darkblue;
+    cursor: pointer;
+    color: darkblue;
+}
+
+.fun {
+    /* CSS generated from https://uigradients.com */
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#idea {
+    text-align: center;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

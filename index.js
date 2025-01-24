@@ -1,7 +1,4 @@
-document.getElementById("bored-bot").addEventListener("click", getIdea)
-
-
-function getIdea() {
+document.getElementById("bored-bot").addEventListener("click", getImage = () => {
     fetch("https://boringapi.com/api/v1/photos?page=2&limit=20&sort_by=file_size&sort_order=desc")
     .then(res => res.json())
     .then(data => {
@@ -11,7 +8,8 @@ function getIdea() {
             }
 
             document.body.classList.add("fun")
-            document.getElementById("idea").innerHTML = `<img src=${data.photos[randomIndex].url} alt=${data.photos[0].url} />`
+            document.getElementById("idea").innerHTML = `<img src=${data.photos[randomIndex].url} alt=${data.photos[0].url} class="image"/>`
             document.getElementById("title").textContent = "🦾 Do you want a new one?🦿"
         })
-}
+    }
+)

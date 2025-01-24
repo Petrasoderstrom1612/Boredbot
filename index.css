@@ -15,6 +15,8 @@ body {
 h1 {
     text-align: center;
     margin-top: 0;
+    font-family: Oxygen, sans-serif;
+    font-weight: bold;
 }
 
 button {
@@ -27,6 +29,8 @@ button {
     border: 1px solid darkblue;
     cursor: pointer;
     color: darkblue;
+    font-family: Oxygen, sans-serif;
+    margin-bottom: 20px;;
 }
 
 .fun {
@@ -45,4 +49,9 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.image{
+    width: 80%;
+    height: auto;
 }
